@@ -1,0 +1,45 @@
+{
+  "name": "leaflet.control.layers.tree",
+  "version": "1.1.0",
+  "description": "Control Layers in a Tree structure",
+  "main": "L.Control.Layers.Tree.js",
+  "style": "L.Control.Layers.Tree.css",
+  "types": "L.Control.Layers.Tree.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "lint": "eslint L.*.js test/* examples/*",
+    "lintfix": "eslint L.*.js test/* examples/* --fix",
+    "spec": "mocha-headless-chrome -f test/index.html",
+    "test": "npm run lint && npm run spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjimenezshaw/Leaflet.Control.Layers.Tree.git"
+  },
+  "keywords": [
+    "Leaflet",
+    "map",
+    "geo",
+    "tree",
+    "control",
+    "layers"
+  ],
+  "devDependencies": {
+    "chai": "~4.3.4",
+    "chai-leaflet": "^0.0.13",
+    "eslint": "^7.23.0",
+    "eslint-plugin-html": "^6.1.2",
+    "happen": "^0.3.2",
+    "leaflet": "^1.7.1",
+    "mocha": "^8.3.2",
+    "mocha-headless-chrome": "^3.1.0"
+  },
+  "peerDependencies": {
+    "leaflet": "^1.1.0"
+  },
+  "author": "Javier Jimenez Shaw",
+  "readmeFilename": "README.md"
+}
